@@ -3,7 +3,7 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     function isAdmin() {
-      return request.auth.token.isAdmin;
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'administrator'
     }
 
      function isCurrentUser(user) {
