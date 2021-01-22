@@ -9,7 +9,7 @@ const auth = {
 const authAdmin = {
   uid: "dcj",
   role: "administrator",
-  isAdmin: true
+  isAdmin: true // testing will attached these to the token object, but in the wild you need to add them via the admin sdk
 };
 
 const getFireStore = (auth) => {
