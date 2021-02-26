@@ -34,10 +34,6 @@ You must have a [Java Rumtime](https://www.java.com/en/download/) installed.
 [http://localhost:4000/firestore](http://localhost:4000/firestore]) for emulated firestore
 
 
-### Create User Collection
-Create the user collection in the emulated [firestore](http://localhost:4000/firestore])
-
-
 ### Install Project Dependencies
 
 `yarn`
