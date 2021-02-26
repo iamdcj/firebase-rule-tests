@@ -27,6 +27,19 @@ describe("beeyonder app", () => {
     const doc = db.collection("users").doc("dcj123");
 
     await firebase.assertSucceeds(
+      doc.set({
+        foo: "bar",
+      })
+    );
+  });
+
+
+  it("allows edits if current user", async () => {
+    const db = getFireStore(auth);
+
+    const doc = db.collection("users").doc("dcj123");
+
+    await firebase.assertSucceeds(
       doc.update({
         ham: "eggs",
       })

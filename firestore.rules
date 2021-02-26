@@ -26,7 +26,7 @@ service cloud.firestore {
   	match /users/{docId} {
        allow read: if isSignedIn();
        allow write, update: 
-        if noUpdateToAmin() && (isAdmin() || isCurrentUser(docId));
+        if isAdmin() || isCurrentUser(docId);
        allow delete: 
         if isAdmin();
     }
