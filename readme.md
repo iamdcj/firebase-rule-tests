@@ -30,6 +30,7 @@ You must have a [Java Rumtime](https://www.java.com/en/download/) installed.
 `firebase emulators:start --only firestore`
 
 [localhost:4000/](http://localhost:4000/]) for emulator overview
+
 [http://localhost:4000/firestore](http://localhost:4000/firestore]) for emulated firestore
 
 
