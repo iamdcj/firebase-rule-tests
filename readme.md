@@ -1,6 +1,6 @@
 # Setup
 
-Ensure you have a [Java Rumtime] @ installed.
+You must have a [Java Rumtime](https://www.java.com/en/download/) installed.
 
 ### Install Firebase CLI (globally)
 
