@@ -2,10 +2,6 @@
 
 Ensure you have a [Java Rumtime] @ installed.
 
-### Install Dependencies
-
-`yarn`
-
 ### Install Firebase CLI (globally)
 
 `npm install -g firebase-tools`
@@ -39,6 +35,11 @@ Ensure you have a [Java Rumtime] @ installed.
 
 ### Create User Collection
 Create the user collection in the emulated [firestore](http://localhost:4000/firestore])
+
+
+### Install Project Dependencies
+
+`yarn`
 
 
 ### Run Tests
